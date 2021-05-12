@@ -146,8 +146,8 @@ setup(
         "An SSL/TLS layer for scapy the interactive packet manipulation tool"),
     license="GPLv2",
     keywords=["scapy", "ssl", "tls", "layer", "network", "dissect", "packets", "decrypt"],
-    url="https://github.com/tintinweb/scapy-ssl_tls/",
-    download_url="https://github.com/tintinweb/scapy-ssl_tls/tarball/v2.0.0",
+    url="https://github.com/guoxing1993/scapy-ssl_tls",
+    download_url="https://github.com/guoxing1993/scapy-ssl_tls",
     # generate rst from .md:  pandoc --from=markdown --to=rst README.md -o README.rst (fix diff section and footer)
     long_description=read("README.rst") if os.path.isfile("README.rst") else read("README.md"),
     install_requires=os_install_requires(),
